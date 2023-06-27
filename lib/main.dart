@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_diffrent_ui_part2/modules/slider_side_menu/slider.dart';
-
+import 'package:flutter_diffrent_ui_part2/modules/awesome_card/card.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: SliderSideMenuScreen(),
+      home: VisaCardScreen(),
     );
   }
 }

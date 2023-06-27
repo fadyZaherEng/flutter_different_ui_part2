@@ -38,6 +38,7 @@ dependencies:
   permission_handler: ^10.3.0
   readsms: ^0.0.2+2
   slider_side_menu: ^0.1.0
+  awesome_card: ^1.1.7
   
 dev_dependencies:
   flutter_test:
